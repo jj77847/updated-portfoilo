@@ -1,339 +1,41 @@
-/* Style the navigation menu
+/* Style the navigation menu */
 .topnav {
   overflow: hidden;
   background-color: #333;
   position: relative;
 }
 
-Hide the links inside the navigation menu (except for logo/home) */
-/* .topnav #myLinks {
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
   display: none;
-} */
-/* 
+}
+ 
 /* Style navigation menu links */
-/* .topnav a {
+.topnav a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
-} */
-
-/* Style the hamburger menu */
-/* .topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-} */
-
-/* Add a grey background color on mouse-over */
-/* .topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
- */
-/* Style the active link (or home/logo) */
-/* .active {
-  background-color: #04aa6d;
-  color: white;
-/* } */
-*/ */ :root {
-  --black-color: #000000;
-  --text-decoration-skip-ink: rgb(243, 16, 53);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0px;
-  min-height: 100vh;
-  line-height: 1;
-  font-size: 20px;
-  background: var(--black-color);
-}
-/* nav item styling */
-.nav-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: var(--black-color);
-  color: #ffffff;
-  padding: 20px;
-}
-
-.nav-container span {
-  color: var(--text-decoration-skip-ink);
-}
-
-.nav-items {
-  display: inline-flex;
-  padding: 20px;
-}
-
-.nav-link {
-  padding-left: 20px;
-  cursor: pointer;
-}
-
-.nav-link a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.nav-items a:hover {
-  color: var(--text-decoration-skip-ink);
-}
-/* about me section styling */
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: row;
-  width: 100%;
-  padding: 20px 0px;
-  background-color: var(--black-color);
-}
-
-.profile-pic {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.flex-text {
-  width: 550px;
-  padding-left: 20px;
-}
-
-.flex-text span {
-  color: var(--text-decoration-skip-ink);
-}
-
-.flex-img {
-  width: 300px;
-  height: 300px;
-  margin-top: 120px;
-}
-
-.flex-text h1 {
-  color: #ffffff;
-  font-size: 60px;
-  text-transform: capitalize;
-  margin: 0 20px;
-  margin-top: 20px;
-}
-
-.flex-text p {
-  color: #ffc0cb;
-  letter-spacing: 1px;
-  line-height: 28px;
-  margin-bottom: 30px;
-  padding: 20px;
-}
-
-.flex-text h2 {
-  color: var(--text-decoration-skip-ink);
-  padding-left: 20px;
-  padding-top: 15px;
-}
-
-.flex-text ul {
-  color: #ffc0cb;
-}
-
-/* main project styling */
-
-section a {
-  color: var(--text-decoration-skip-ink);
-}
-
-.hire-me {
-  color: #ffffff;
-  text-decoration: none;
-  padding-left: 20px;
-}
-
-.hire-me:hover {
-  color: rgb(243, 16, 53);
-}
-
-.project-container-main {
-  background-color: var(--black-color);
-}
-
-/*animate project image */
-
-.project-image:hover {
-  animation: grow 0.5s ease-out;
-  cursor: pointer;
-  transform: scale(0.95);
-
-  z-index: 2;
-}
-
-.project-description {
-  color: #ffc0cb;
-  letter-spacing: 1px;
-  line-height: 28px;
-  margin-bottom: 45px;
-  text-align: left;
-}
-
-#projects {
-  background: var(--black-color);
-}
-
-#projects h2 {
-  padding-left: 20px;
-  /* color: rgb(243, 16, 53); */
-  color: white;
-}
-
-#projects h2 span {
-  color: var(--text-decoration-skip-ink);
-}
-
-.project-description h3 {
-  color: #9c283b;
-  text-align: center;
-}
-
-.project-description p {
-  text-align: center;
-}
-
-.project-image img {
-  object-fit: contain;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  display: block;
-  max-height: 600px;
-  padding-top: 20px;
-}
-
-.project-btn-deco {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-/* small projects styling */
-.cards-container {
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: var(--black-color);
-  justify-content: space-around;
-
-  /* flex properties */
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.small-project-card {
-  color: #ffc0cb;
-  text-align: center;
-}
-
-.small-project-card h3 {
-  color: #9c283b;
-}
-
-.small-project-card img {
-  object-fit: contain;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  width: 80%;
-  display: block;
-  max-height: 400px;
-}
-
-.small-project-card:hover {
-  animation: grow 0.5s ease-out;
-  cursor: pointer;
-  transform: scale(0.95);
-
-  z-index: 2;
-}
-
-.small-project-description p {
-  padding: 40px;
-  margin: 20px;
-}
-.btn-container {
-  margin-top: 10px;
-
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.project-btn {
-  width: 300px;
-  margin: 10px;
-
-  padding: 10px;
-  border-radius: 10%;
-  background-color: var(--black-color);
-  font-size: 18px;
-}
-
-.project-btn a {
-  text-decoration: none;
-  color: white;
-}
-
-.project-btn:hover {
-  background-color: red;
-}
-
-/* contact me section styling */
-footer {
-  position: relative;
-  width: 100%;
-  height: 200px;
-  background: var(--black-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-footer h3 {
-  font-size: 30px;
-  color: #ffffff;
-}
-footer h3 span {
-  color: rgb(243, 16, 53);
-}
-
-.contact-me {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  /* right: 0;
+  top: 0;
 }
 
-.contact-me a {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-.contact-me a:hover {
-  transform: scale(1.3);
-  transition: 0.3s;
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 /* media Queries */
@@ -366,4 +68,24 @@ footer h3 span {
     align-self: center;
     height: 400px;
   }
+}
+
+ .img {
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 80%;
+  display: block;
+  max-height: 400px;
+}
+
+.project-image img {
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: block;
+  max-height: 600px;
+  padding-top: 20px;
 }
