@@ -40,12 +40,12 @@
     <Header>
       <nav class="nav-container nes-container flex-container is-dark flex-text text">
         <div class="nav-items">
-          <div class="nav-link"><a href="#About-me"><span class="nes-text is-primary">About Me></span></a></div>
-          <div class="nav-link"><a href="#Qulifications"><span class="nes-text is-success"></span>Projects</a></div>
-          <div class="nav-link"><a href="#Education"><span class="nes-text is-primary"></span>Contact Me</a></div>
-          <div class="nav-link"><a href="#Experince"><span class="nes-text is-error">About Me</span></a></div>
-          <div class="nav-link"><a href="#projects"><span class="nes-text is-success"></span>Projects</a></div>
-          <div class="nav-link"><a href="#Contact-me"><span class="nes-text is-success"></span>Contact Me</a></div>
+          <div class="nav-link"><a href="#About-me"><span class="nes-text is-success">About Me</span></a></div>
+          <div class="nav-link"><a href="#Qulifications"><span class="nes-text is-error">Qualifications</span></a></div>
+          <div class="nav-link"><a href="#Education"><span class="nes-text is-primary">Education</span></a></div>
+          <div class="nav-link"><a href="#Experince"><span class="nes-text is-error">Experience</span></a></div>
+          <div class="nav-link"><a href="#projects"><span class="nes-text is-error">Projects</span></a></div>
+          <div class="nav-link"><a href="#Contact-me"><span class="nes-text is-success">Contact Me</span></a></div>
         </div>
                 
     </Header>
@@ -54,7 +54,7 @@
         
       <div class="nes-container flex-container is-dark with-title flex-text" >
         <p class="title">
-        <span class="nes-text is-success">About Me</span>
+        <a href="#About-me"><span class="nes-text is-success">About Me</span></a>
       </p>
       <p style="float: centre"><img src="./assets/img/gallery/jonny-profile.png" height="450px" width="300px" margin="5" flex-box></p>
       <p>I've been self taught web developer for 6 months focusing on the basics of coding using<span class="nes-text is-primary">HTML, CSS and Python</span>.  These basic courses alongside<strong>Freecodecamp.com</strong> and <strong>Futurelearn.com</strong> courses.<p>
@@ -68,7 +68,7 @@
 
     <div class="nes-container is-dark with-title flex-text">
       <p class="title">
-      <span class="nes-text is-error">Qualifications</span>
+      <a href="#Qulification"><span class="nes-text is-error">Qualifications</span></a>
       </p>
       <p>From January 2021 I have gained various qualifications in preparation for University Boot Camp that started September 2021</p>
       <ul class="nes-list is-disc">
@@ -97,7 +97,7 @@
         <li> - <strong><span class="nes-text is-success">Full Stack Web Developer</strong> - <span class="nes-text is-primary">Birmingham University Boot-camp (Sept 21 - March 22)</span></li>
       </ul>
 
-      <a href="./Jonathan-(Jonny)-Jefferies.pdf" class="btn btn-common"><i class="icon-paper-clip"></i> <span class="nes-text is-error">Download Resume</span></a>
+      <a href="./Jonathan-(Jonny)-Jefferies.pdf"><a class="nes-btn is-error">Download Resume</span></a>
 
     </div>
 
@@ -106,7 +106,7 @@
 <!-- Experience Start -->
 
     <div class="nes-container is-dark with-title flex-text">
-      <p class="title"><span class="nes-text is-primary">Education</span></p>
+      <p class="title"><a href="#Education"><span class="nes-text is-primary">Education</span></a></p>
       <p><span class="nes-text is-success">2008-2009 Plymouth University</span>, <span class="nes-text is-primary">FSDC Outdoor Education</span> - (deferred 2nd year due to injury)</p>
       <br>
       <p><span class="nes-text is-success">2002-2007 Southdowns College</span>, <span class="nes-text is-primary">BTECH Nat Deploma in Outdoor Education</span> Year 1 Pass and <span class="nes-text is-primary">BTECH Nat Deploma in Public Services</span> MMP</p>
@@ -147,8 +147,9 @@
     <div class="row">
       <div class="col-sm-6">
         <div class="card">
-        <div class="nes-container is-dark with-title">
-          <p class="title"><h2><span class="nes-text is-success">Accessability Website</span></h2></p>
+        <div class="nes-container is-dark with-title flex-text">
+          <p class="title"><a href="#Projects"><span class="nes-text is-error">Projects</a></p>
+          <a href="#Projects"><p class="title"><h2><span class="nes-text is-success">Accessability Website</span></a></h2></p>
           <p class="marketing-acessability-website">
            
              <img
@@ -167,14 +168,14 @@
               <a
                 href="https://jj77847.github.io/marketing-acessability-website/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-btn is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/marketing-acessability-website/tree/dev"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
@@ -202,15 +203,14 @@
               <a
                 href="https://youtu.be/0sOWbX9wO88"
                 target="_blank"
-                >Video Link</a
+                ><span class="nes-btn is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/good-readme-generator"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
-              >
+                ><span class="nes-btn is-error">Code</span>
             </button>
           </div>
         </div>
@@ -235,17 +235,16 @@
           </div>
           <div class="project-btn-deco">
             <button class="project-btn">
-              <a
-                href="https://jj77847.github.io/portfolio/"
+              <href="https://jj77847.github.io/portfolio/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-btn is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/portfolio/tree/dev"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
@@ -275,14 +274,14 @@
               <a
                 href="https://jj77847.github.io/code-quiz/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-btn is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/code-quiz"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
@@ -308,17 +307,16 @@
           </div>
           <div class="project-btn-deco">
             <button class="project-btn">
-              <a
-                href="https://jj77847.github.io/work-day-scheduler/"
+              <href="https://jj77847.github.io/work-day-scheduler/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-btn is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/work-day-scheduler/tree/dev"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
@@ -343,17 +341,16 @@
           </div>
           <div class="project-btn-deco">
             <button class="project-btn">
-              <a
-                href="https://jj77847.github.io/weather-dashboard/"
+              <href="https://jj77847.github.io/weather-dashboard/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-btn is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/weather-dashboard/tree/dev"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
@@ -384,22 +381,21 @@
               <a
                 href="https://gingus55.github.io/sound-art-smart/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-btn is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/sound-art-smart"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
-              >
+                ><span class="nes-btn is-error">Code</span>
             </button>
           </div>
         </div>
 
         <!-- Sound-art-smart end -->
 
-                <!--  Sound-art-smart Start -->
+                <!--  Updated Portfolio Start -->
 
              <div class="nes-container is-dark with-title">
       <p class="title"><h2><span class="nes-text is-success">Updated Portfolio</span></h2></p>
@@ -418,22 +414,21 @@
               <a
                 href="https://jj77847.github.io/updated-portfoilo/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-btn is-success">Link</span></aLink</a
               >
             </button>
             <button class="project-btn">
-              <a
-                href="https://github.com/jj77847/updated-portfoilo/tree/dev2"
+              <href="https://github.com/jj77847/updated-portfoilo/tree/dev2"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
         </div>
 
-        <!-- Sound-art-smart end -->
+        <!-- Updated Portfolio end -->
 
-                <!--  Sound-art-smart Start -->
+                <!--  Good Readme Generator Start -->
 
              <div class="nes-container is-dark with-title">
       <p class="title"><h2><span class="nes-text is-success">Good Readme Generator</span></h2></p>
@@ -448,27 +443,27 @@
             <p>n this project I have created a README generator using Node.js with the inquirer package. 
             <p>This allows a user to go through a series of terminal prompts and the program creates a markdown file using the answers collected from the user.</p>
           </div>
-          <div class="project-btn-deco">
+          <div class="project-btn">
             <button class="project-btn">
               <a
                 href="https://youtu.be/0sOWbX9wO88"
                 target="_blank"
-                >Video Link</a
+                ><span class="nes-btn is-success">Video Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/good-readme-generator"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
         </div>
 
-        <!-- Sound-art-smart end -->
+        <!-- Good Readme Generator end -->
 
-                <!--  Sound-art-smart Start -->
+                <!--  Team Profile Generator Start -->
 
              <div class="nes-container is-dark with-title">
       <p class="title"><h2><span class="nes-text is-success">Team Profile Generator</span></h2></p>
@@ -486,27 +481,27 @@
             <p>Then an html page is created that can be viewed in a web browser.</p>
 
           </div>
-          <div class="project-btn-deco">
+          <div class="project-btn">
             <button class="project-btn">
               <a
                 href="https://www.youtube.com/watch?v=GXveSvdXX0A"
                 target="_blank"
-                >Video Link</a
+                ><span class="nes-btn is-success">Video Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/team-profile-generator"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
         </div>
 
-        <!-- Sound-art-smart end -->
+        <!-- Team Profile Generator end -->
 
-                <!--  Sound-art-smart Start -->
+                <!--  note taker Start -->
 
              <div class="nes-container is-dark with-title">
       <p class="title"><h2><span class="nes-text is-success">Note Taker</span></h2></p>
@@ -522,27 +517,26 @@
             <p>This application will use an Express.js back end and will save and retrieve note data from a JSON file.</p> 
             <p>I've also deployed the application to Heroku.</p>
           </div>
-          <div class="project-btn-deco">
+          <div class="project-btn">
             <button class="project-btn">
-              <a
-                href="https://updated-note-taker.herokuapp.com/"
+              <href="https://updated-note-taker.herokuapp.com/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-btn is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/updated-note-taker"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
         </div>
 
-        <!-- Sound-art-smart end -->
+        <!-- note taker end -->
 
-                <!--  Sound-art-smart Start -->
+                <!--  Employee Management System Start -->
 
              <div class="nes-container is-dark with-title">
       <p class="title"><h2><span class="nes-text is-success">Employee Management System</span></h2></p>
@@ -554,28 +548,27 @@
             />
           </p>
           <div class="project-description">
-            <p>company's employee database, using Node.js, Inquirer, and MySQL.</p>          </div>
-          <div class="project-btn-deco">
+            <p>Company's employee database, using Node.js, Inquirer, and MySQL.</p></div>
             <button class="project-btn">
               <a
                 href="https://gingus55.github.io/sound-art-smart/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-text is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/updated-employee-tracker"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
         </div>
 
-        <!-- Sound-art-smart end -->
+        <!-- Employee Management System end -->
 
-                <!--  Sound-art-smart Start -->
+                <!-- E-Commerse Backend Start -->
 
              <div class="nes-container is-dark with-title">
       <p class="title"><h2><span class="nes-text is-success">E-Commerse Backend</span></h2></p>
@@ -589,27 +582,26 @@
           <div class="project-description">
             <p>I've configured a working Express.js API to use Sequelize to interact with a MySQL database.</p>
           </div>
-          <div class="project-btn-deco">
+          <div class="project-btn">
             <button class="project-btn">
-              <a
-                href="https://gingus55.github.io/sound-art-smart/"
+              <href="https://gingus55.github.io/sound-art-smart/"
                 target="_blank"
-                >Link</a
-              >
+                ><span class="nes-btn is-success">Link</span></a
+              > 
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/e-commerce-back-end"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
         </div>
 
-        <!-- Sound-art-smart end -->
+        <!-- E-Commerse Backend end -->
 
-                <!--  Sound-art-smart Start -->
+                <!--  tech blog Start -->
 
              <div class="nes-container is-dark with-title">
       <p class="title"><h2><span class="nes-text is-success">Tech Blog</span></h2></p>
@@ -626,25 +618,24 @@
           </div>
           <div class="project-btn-deco">
             <button class="project-btn">
-              <a
-                href=" https://updated-tech-blog.herokuapp.com/"
+              <href="https://updated-tech-blog.herokuapp.com/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-btn is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/updated-tech-blog"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
         </div>
 
-        <!-- Sound-art-smart end -->
+        <!-- tech blog end -->
 
-                <!--  Sound-art-smart Start -->
+                <!--  regex tutorial Start -->
 
              <div class="nes-container is-dark with-title">
       <p class="title"><h2><span class="nes-text is-success">Regex Tutorial</span></h2></p>
@@ -660,25 +651,24 @@
           </div>
           <div class="project-btn-deco">
             <button class="project-btn">
-              <a
-                href="https://gingus55.github.io/sound-art-smart/"
+              <href="https://gingus55.github.io/sound-art-smart/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-btn is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/regex-tutorial"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
         </div>
 
-        <!-- Sound-art-smart end -->
+        <!-- regex tutorial end -->
 
-                <!--  Sound-art-smart Start -->
+                <!--  Social networking api Start -->
 
              <div class="nes-container is-dark with-title">
       <p class="title"><h2><span class="nes-text is-success">Social Networking API</span></h2></p>
@@ -696,25 +686,22 @@
           </div>
           <div class="project-btn-deco">
             <button class="project-btn">
-              <a
-                href="https://gingus55.github.io/sound-art-smart/"
+              <href="https://gingus55.github.io/sound-art-smart/"
                 target="_blank"
-                >Link</a
-              >
+                ><span class="nes-btn is-success">Link</span></a>
             </button>
             <button class="project-btn">
-              <a
-                href="https://github.com/jj77847/social-network-api"
+              <href="https://github.com/jj77847/social-network-api"
                 target="_blank"
-                ></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
         </div>
 
-        <!-- Sound-art-smart end -->
+        <!-- Social networking api end -->
 
-                <!--  Sound-art-smart Start -->
+                <!--  react portfoilo Start -->
 
              <div class="nes-container is-dark with-title">
       <p class="title"><h2><span class="nes-text is-success">React Portfolio</span></h2></p>
@@ -737,20 +724,20 @@
               <a
                 href="https://gingus55.github.io/sound-art-smart/"
                 target="_blank"
-                >Link</a
+                ><span class="nes-btn is-success">Link</span></a
               >
             </button>
             <button class="project-btn">
               <a
                 href="https://github.com/jj77847/sound-art-smart"
                 target="_blank"
-                ><span class="nes-text is-error">View Code</span></a
+                ><span class="nes-btn is-error">Code</span></a
               >
             </button>
           </div>
         </div>
 
-        <!-- Sound-art-smart end -->
+        <!-- React Portfoilo end -->
 
 
  <!--  Sound-art-smart Start -->
